@@ -10,6 +10,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven {url('https://jcenterbintray.com')}
     }
 }
 rootProject.name = "Mastering Android"
