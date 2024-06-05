@@ -4,26 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="@color/white"
-    android:layout_margin="10dp"
     android:orientation="vertical"
+    android:background="@color/white"
     >
 
-
-
-    <Button
-        android:id="@+id/calculateNamta"
+    <EditText
+        android:id="@+id/edNumberInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Calculate Namta"/>
-
+        android:hint="Enter Number"
+        android:textColor="@color/black"
+        />
 
     <Button
-        android:id="@+id/calculateEven"
+        android:id="@+id/calculate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Calculate Even"/>
+        android:text="Calculate"/>
+
+    <TextView
+        android:id="@+id/tvOutput"
+        android:text="Result .."
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 
 

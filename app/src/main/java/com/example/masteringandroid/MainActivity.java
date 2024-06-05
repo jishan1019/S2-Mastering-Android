@@ -22,5 +22,13 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
+        findViewById(R.id.calculateEven).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, EnvenActivity.class));
+            }
+        });
+
+
     }
 }
