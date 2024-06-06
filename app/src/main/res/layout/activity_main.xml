@@ -32,5 +32,14 @@
         android:text="Calculate Sum Series"/>
 
 
+    <Button
+        android:id="@+id/layoutInflateBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="inflate layout"/>
+
+
+
+
 
 </LinearLayout>

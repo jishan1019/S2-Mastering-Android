@@ -37,5 +37,13 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
+        findViewById(R.id.layoutInflateBtn).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, LayoutInflaterActivity.class));
+            }
+        });
+
+
     }
 }
