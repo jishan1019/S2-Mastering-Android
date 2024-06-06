@@ -9,8 +9,8 @@
     android:orientation="vertical"
     >
 
-    <include
-        layout="@layout/profile"/>
+<!--    <include-->
+<!--        layout="@layout/profile"/>-->
 
     <LinearLayout
         android:id="@+id/inflateLayout"
@@ -21,9 +21,17 @@
     </LinearLayout>
 
     <Button
+        android:id="@+id/btnAdd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Inflate"/>
+
+
+    <Button
+        android:id="@+id/btnRemove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remove"/>
 
 
 </LinearLayout>
