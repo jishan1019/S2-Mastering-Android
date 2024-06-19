@@ -10,14 +10,19 @@
     android:padding="10dp"
     >
 
-    <TextView
-        android:id="@+id/tvDisplay"
+
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/progressBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@color/black"
-        android:text="Loadinnnnn"
-        android:textSize="17sp"
         />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
 
 
 </LinearLayout>
