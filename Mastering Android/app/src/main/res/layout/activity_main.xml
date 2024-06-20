@@ -50,6 +50,13 @@
         android:layout_height="wrap_content"
         android:text="Req Server"/>
 
+    <Button
+        android:id="@+id/btnFregment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GO to Fregment"/>
+
+
 
 
 
