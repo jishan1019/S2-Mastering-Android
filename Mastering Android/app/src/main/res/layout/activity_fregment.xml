@@ -9,9 +9,26 @@
     android:background="@color/white"
     >
 
+
+    <Button
+        android:id="@+id/btn1fregment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="First Fregment"/>
+
+    <Button
+        android:id="@+id/btn2fregment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Second Fregment"/>
+
+
+
+
     <FrameLayout
         android:id="@+id/frameLayout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="400dp"
+        />
 
 </LinearLayout>
