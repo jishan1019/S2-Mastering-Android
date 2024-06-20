@@ -70,5 +70,15 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
+        findViewById(R.id.btnBottomNavigation).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, BottomNavigationActivity.class));
+            }
+        });
+
+
+
+
     }
 }

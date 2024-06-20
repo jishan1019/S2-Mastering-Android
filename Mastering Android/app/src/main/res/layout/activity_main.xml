@@ -57,6 +57,16 @@
         android:text="GO to Fregment"/>
 
 
+    <Button
+        android:id="@+id/btnBottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bottom Navigation"/>
+
+
+
+
+
 
 
 
